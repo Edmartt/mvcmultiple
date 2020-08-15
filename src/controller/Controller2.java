@@ -20,17 +20,14 @@ public class Controller2 implements ActionListener {
     Datos dat;
     DatosTabla dattab;
     Persona p;
-    Controller1 cont;
-   
     
-    public Controller2(Controller1 cont) {
-        this.cont=cont;
+    public Controller2() {  
+        
         dat = new Datos();
         dattab = new DatosTabla();
         p = new Persona();
         dattab.crearTabla(dat, p);
-        buttons();
-      
+        buttons();   
     }
     
     private void buttons() {
