@@ -31,7 +31,7 @@ public class Controller1 implements ActionListener {
     public void actionPerformed(ActionEvent ae) {
         if (ae.getSource() == main.btn_inicio) {
             dat.setVisible(true);
-            //cont.dattab.crearTabla(dat, p);
+          
         }
     }
 }

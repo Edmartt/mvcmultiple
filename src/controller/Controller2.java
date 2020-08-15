@@ -45,7 +45,7 @@ public class Controller2 implements ActionListener {
             p.setCedula(dat.txt_cedula.getText());
             p.setEdad(dat.txt_edad.getText());
             dattab.crearTabla(dat, p);
-            System.out.println(p.getNombre());
+           
         }
         
     }
